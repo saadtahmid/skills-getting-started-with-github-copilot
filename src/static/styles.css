@@ -74,6 +74,31 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.activity-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.activity-card ul li {
+  margin-bottom: 5px;
+  color: #555;
+  font-size: 14px;
+}
+
+.participants-list {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: circle; /* Use circle bullets for a clean look */
+}
+
+.participants-list li {
+  margin-bottom: 5px;
+  color: #444; /* Slightly darker color for better readability */
+  font-size: 14px; /* Maintain consistent font size */
+  font-style: italic; /* Add a subtle style to differentiate participants */
+}
+
 .form-group {
   margin-bottom: 15px;
 }
